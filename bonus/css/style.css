@@ -1,0 +1,109 @@
+/* General layout*/
+body{
+    width:100vw;
+}
+
+main{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header */
+header{
+    background-image: url("../img/pattern.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-color: #017da5;
+    height:120px;
+}
+
+#logo{
+    height: 60px;
+    margin-top: 40px;
+    margin-left: 20%;
+}
+
+/* Article presentation */
+.title{
+    font-size:40px;
+    font-weight: bold;
+}
+
+.authored{
+    color:grey;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.author{
+    color:#50bfe3;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.date{
+    color:grey;
+    font-size: 12px;
+}
+
+main div span{
+    font-size: 11px;
+}
+
+/* Paragraph highlights */
+.highlighted{
+    background-color: yellow;
+}
+
+/* Table layout */
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+th{
+    color:white;
+    text-align: left;
+}
+
+tr:first-of-type{
+    background-color: #50bfe3;
+}
+
+tr:nth-child(even){
+    background-color: lightblue;
+}
+
+td:first-child{
+    width:30%;
+}
+
+td:nth-child(2){
+    width:30%;
+}
+
+/* Footer */
+footer{
+    margin-left: 20%;
+    color: grey;
+}
+
+footer div{
+    height: 150px;
+    width: 200px;
+}
+
+#first-adv{
+    background-image: url(../img/monitor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#second-adv{
+    background-image: url("../img/graph.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+}
